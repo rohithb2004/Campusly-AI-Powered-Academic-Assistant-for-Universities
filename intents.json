@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good afternoon"],
+      "responses": ["Hello! Please provide your registration number to continue."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! Please provide your registration number to continue.",
+        "Hi there! Kindly enter your registration number."
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "When is the class of Mrs. Deena ma'am?",
+        "What time is Deena ma'am's class?",
+        "When do I have Mrs. Deena's class?"
+      ],
+      "responses": [
+        "Today, fourth hour.",
+        "You have Mrs. Deena's class during the fourth hour today."
+      ]
+    },
+    {
+      "tag": "holiday",
+      "patterns": [
+        "Do we have a holiday today?",
+        "Is today a holiday?",
+        "Is there a holiday today?"
+      ],
+      "responses": [
+        "No, today is a working day.",
+        "No, there is no holiday today."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What is my overall attendance?",
+        "Can you check my attendance?",
+        "How much attendance do I have?"
+      ],
+      "responses": [
+        "I am not able to fetch this data right now.",
+        "Currently, I do not have access to attendance records."
+      ]
+    },
+    {
+      "tag": "exam_dates",
+      "patterns": [
+        "When are my exams?",
+        "What is my exam schedule?",
+        "Tell me the exam dates"
+      ],
+      "responses": [
+        "Exam schedules are posted on the university website. Kindly check the latest updates there.",
+        "You can check your exam dates on the university's official portal."
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "What is the syllabus for Mathematics?",
+        "Where can I find the syllabus?",
+        "Show me the syllabus for Physics"
+      ],
+      "responses": [
+        "The syllabus is available on the university website under the 'Academics' section.",
+        "You can download the syllabus from your department's portal."
+      ]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": [
+        "Who teaches Data Structures?",
+        "Who is our AI professor?",
+        "Can you tell me about the faculty members?"
+      ],
+      "responses": [
+        "Prof. Rajesh Kumar teaches Data Structures. You can meet him during office hours from 2-4 PM.",
+        "Dr. Asha Verma is the professor for AI. She is available in room 102."
+      ]
+    },
+    {
+      "tag": "library_timing",
+      "patterns": [
+        "What are the library hours?",
+        "When is the library open?",
+        "Is the library open now?"
+      ],
+      "responses": [
+        "The library is open from 8 AM to 8 PM on weekdays and 9 AM to 5 PM on weekends.",
+        "You can visit the library anytime between 8 AM and 8 PM on working days."
+      ]
+    },
+    {
+      "tag": "canteen_menu",
+      "patterns": [
+        "What is the canteen menu for today?",
+        "What food is available in the canteen?",
+        "Tell me today's food menu"
+      ],
+      "responses": [
+        "Today's special is Paneer Butter Masala with Roti. Regular items include sandwiches, dosas, and tea.",
+        "The canteen serves a variety of snacks and meals. Check the display board for the menu."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "When will my results be announced?",
+        "Where can I check my results?",
+        "Tell me my grades"
+      ],
+      "responses": [
+        "Results are usually posted on the university website. Kindly check the student portal.",
+        "You can check your results on the official student dashboard."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a great day!",
+        "Goodbye! Come back if you need more help."
+      ]
+    }
+  ]
+}
